@@ -1,6 +1,5 @@
 file=input("Enter File Name: ")
-fileName=file+'.txt'
-fileStream=open(fileName,'r').readlines()
+fileStream=open(file,'r').readlines()
 choice=0
 print("The file has",len(fileStream)," lines")
 while(1):
